@@ -8,7 +8,7 @@ giftCards.addEventListener('submit', function(event){
     var lamboCards = giftCards.lamboTotal.value
     var holidayCards = giftCards.holidaysTotal.value  
     var totalcards = Number(moonCards)+Number(lamboCards)+Number(holidayCards)
-    document.getElementById('cardssCaptured').textContent = totalcards
+    document.getElementById('cardsCaptured').textContent = totalcards
 
     var moonTotal = giftCards.moonTotal.value * 20
     var lamboTotal = giftCards.lamboTotal.value * 20
